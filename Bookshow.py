@@ -11,7 +11,11 @@ def show_seats():
         mid = ''.join(row[L:L+M])
         right = ''.join(row[L+M:])
         print(f"{i:2d} {left}  {mid}  {right}")
-def get_index(section, num):
+def get_index(section, num):\
+
+    dfckjdshfcidsa
+    adsclads[pfckadsofj
+odfjdaspokadsofk
     if section == 'L' and 1 <= num <= L: return num - 1
     if section == 'M' and 1 <= num <= M: return L + num - 1
     if section == 'R' and 1 <= num <= R: return L + M + num - 1
